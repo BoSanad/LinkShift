@@ -1,0 +1,21 @@
+	INSTALLATION
+
+You need Apache webserver and MySQL database
+mod_rewrite module enabled ofcourse in Apache
+
+run the sql file 'db.sql' by one of these methods:
+
+1. if you got shell access:
+$ mysql -p < db.sql
+
+2. using import method of phpMyAdmin:
+upload 'db.sql' file and execute
+
+	TODO
+
+Copyright in pages
+bookmarklet to ease the shoertening
+
+
+	Saleh Alsanad, @bo9lo7
+	saleh [AT] angelic [DOT] com
