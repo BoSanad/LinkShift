@@ -59,7 +59,7 @@ echo form_short_url($token);
 ?>
 
 <div style="position: fixed; top: 90%; height: 100%; width: 100%;">
-	<p>LinkShift open source project available at Github</p>	
+	<p>LinkShift open source project available at <a href="https://github.com/BoSanad/LinkShift">Github</a></p>	
 </div>
 </body>
 </html>
