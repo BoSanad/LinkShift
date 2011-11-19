@@ -11,6 +11,8 @@ $ mysql -p < db.sql
 2. using import method of phpMyAdmin:
 upload 'db.sql' file and execute
 
+Then, you need to edit config.inc file to setup database & base url
+
 	TODO
 
 bookmarklet to ease the shortening
