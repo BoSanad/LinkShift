@@ -31,6 +31,9 @@ if (!$conn) die("cannot connect to sql server");
 //escape long url string to prevent sqli
 $longurl = mysql_real_escape_string($_POST['url']);
 
+//add http:// before url if it does not exists, bug discovered by @fR00s
+if (!preg_match('/^http\:\/\//', $longurl)) $longurl = "http://".$longurl; 
+
 //check url validity
 if (!parse_url($longurl)) die("invalid url");
 
