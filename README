@@ -12,7 +12,6 @@ $ mysql -p < db.sql
 upload 'db.sql' file and execute
 
 Then, you need to edit config.inc file to setup database & base url
-Don't forget to chmod config.inc to 600 so nobody looks at your credentials
 
 	Saleh Alsanad, @bo9lo7
 	saleh [AT] angelic [DOT] com

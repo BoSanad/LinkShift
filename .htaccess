@@ -2,3 +2,8 @@ RewriteEngine on
 Options +FollowSymLinks
 Options +Indexes
 RewriteRule ^([a-zA-Z0-9]+)$ link.php?l=$1 [B]
+
+<Files config.inc>
+	order allow,deny
+	deny from all
+</Files>
