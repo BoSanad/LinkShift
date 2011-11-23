@@ -36,7 +36,7 @@ if (!preg_match('/^https?\:\/\//', $longurl)) $longurl = "http://".$longurl;
 
 //check url validity
 //bug discovered by @almhayat let me change the check method to regex
-if (!preg_match('/^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]+(\/.+)*$/', $longurl)) die('invalid url');
+if (!preg_match('/^https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]+(\/.*)*$/', $longurl)) die('invalid url');
 
 //check for url's existence
 $t = get_url_token($longurl);
