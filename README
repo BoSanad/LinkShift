@@ -14,10 +14,5 @@ upload 'db.sql' file and execute
 Then, you need to edit config.inc file to setup database & base url
 Don't forget to chmod config.inc to 600 so nobody looks at your credentials
 
-	TODO
-
-bookmarklet to ease the shortening
-
-
 	Saleh Alsanad, @bo9lo7
 	saleh [AT] angelic [DOT] com
