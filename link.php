@@ -21,7 +21,7 @@ $token = mysql_real_escape_string($_GET['l']);
 if (!preg_match('/^[a-zA-Z0-9]+$/', $token)) die("invalid token");
 
 //get the long url and redirect user to it
-$rs = mysql_query("SELECT longurl FROM links WHERE token = '". $token ."'");
+$rs = mysql_query("SELECT longurl FROM links WHERE token LIKE BINARY '". $token ."'");
 
 //check if we got the long url
 if (!$rs) die("error retreiving long url");
